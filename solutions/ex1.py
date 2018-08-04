@@ -8,14 +8,15 @@ print("1D array:\n{0}\n".format(np.array(lst)))
 # Exercise 1.b::
 print("Exercise 1.b::")
 start = 2.
-end   = 3.
-npoints = 5 
-dx= (end - start)/float(npoints-1)
+stop   = 3.
+num = 5 
+base = 10
+dx= (stop - start)/float(num-1)
 
-pt = [ start+i*dx for i in range(npoints)]
-lst = [10**item for item in pt]
+pt = [ start+i*dx for i in range(num)]
+lst = [base**item for item in pt]
 print("{0}".format(np.array(lst)))
-print("{0}\n".format(np.logspace(start,end,npoints)))
+print("{0}\n".format(np.logspace(start,stop,num,base)))
 
 # Exercise 1.c::
 print("Exercise 1.c::")
