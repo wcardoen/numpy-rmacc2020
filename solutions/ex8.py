@@ -3,16 +3,21 @@ import numpy as np
 import numpy.linalg as la
 import numpy.random as rnd
 
+print("Exercise 8::")
+print("  8.1:")
+
 A = rnd.random((6,6))
 B = ( A+A.T)/2.0
 
 eigval, eigvec = la.eigh(A)
 print("  B:\n{0}\n".format(B))
-print("    eig. values:\n{0}\n".format( eigval))
+print("    eig. values:\n{0}\n".format(eigval))
 print("    eig. vector:\n{0}\n".format(eigvec))
 
 
 
+
+print("  8.2:")
 
 
 # Generate the elements randomly
@@ -44,7 +49,6 @@ print("Own Functions::")
 print("  A:\n{0}".format(A))
 print("  det(A):{0}\n".format(detA))
 
-#detA2 = la.det(A)
 B = np.vander(V,increasing=True)
 detB = la.det(B)
 print("Check using NumPy::")
