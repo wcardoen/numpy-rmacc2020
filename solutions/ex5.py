@@ -34,6 +34,7 @@ print("  Min. val in fourth row:\n{0}\n".format(min_val_fourthrow))
 bool_mat = (A < 0.02) | (A > 0.98)
 print("  Boolean Matrix:\n{0}\n".format(bool_mat))
 print("  Any val <0.02 or >0.98? {0}\n".format(bool_mat.any()))
+print("  Corresponding values:\n{0}\n".format(A[bool_mat]))
 
 
 print("  5.3:")
