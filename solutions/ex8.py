@@ -14,12 +14,7 @@ print("  B:\n{0}\n".format(B))
 print("    eig. values:\n{0}\n".format(eigval))
 print("    eig. vector:\n{0}\n".format(eigvec))
 
-
-
-
 print("  8.2:")
-
-
 # Generate the elements randomly
 n = rnd.randint(4,9)
 V = np.arange(1,n+1)
