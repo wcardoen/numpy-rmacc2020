@@ -1,8 +1,8 @@
-# numpy-rmacc2018
+# numpy-rmacc2020
   Hands-on Introduction to Numpy/Scipy
 
-  Presented at the 8th Annual RMACC HPC Symposium
+  Presented at the 10th Annual RMACC HPC Symposium
 
-  August 7-9, 2018
+  May 20-21, 2020
 
   University of Colorado, Boulder
